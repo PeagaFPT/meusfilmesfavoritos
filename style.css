@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(netflix-gradient.png);
+    position: relative;
+    background-size: cover;
+}
+
+.critica {
+    display: flex;
+    justify-content: center;
+    padding: 180px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 1;
+    font-size: 3.125rem;
+    color: white;
+}
+
+.critica2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 1;
+    font-size: 3.125rem;
+    color: white;
+}
+
+.critica3 {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 1;
+    font-size: 3.125rem;
+    color: white;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.filmes {
+    color: white;
+    text-decoration: none;
+}
+
+.filmes:hover {
+    color: grey;
+}
+
+section {
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+section img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border:rgb(148, 11, 11) solid 5px;
+    border-radius: 5px;
+}
+
+section div {
+    width: 300px;
+    height: 450px;
+}
+
+.navegar {
+    display: flex;
+    gap: 25px;
+}
+
+@media (max-width: 1200px) {
+    section#imagens {
+        justify-content: center;
+        width: auto;
+    }
+
+    div#criticas {
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    body {
+        background-image: url(netflix-gradient.png);
+    }
+}
